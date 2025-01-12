@@ -59,9 +59,13 @@
     margin-right: 10px;
 }
 .heading-style{
-  margin-left: 200px;
+  margin: 0 auto;
   font-size: 20px;
   margin-bottom:35px;
+}
+.h11{
+  margin: 0 auto;
+  width: 80%;
 }
 #card-container{
 display: flex;
@@ -78,12 +82,13 @@ margin-bottom: 35px;
 .heading-style p{
   font-size: 16px;
   width: 80%;
-  margin: 35px 0;
+  margin: 0 auto;
 }
 #vision-card-parent{
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin: 35px auto;
 }
 .vision-card-1{
   background-color: #d5e1f5;
@@ -150,4 +155,41 @@ margin-bottom: 35px;
 }
 .vision-card-3 p{
   margin: 20px 0;
+}
+#cab{
+  width: 78%;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+#cab p{
+  font-size: 16px;
+}
+#cab h3{
+  margin: 15px 0;
+}
+.rn{
+  width: 80%;
+  margin: 35px auto;
+}
+.rn h1{
+margin-bottom: 10px;
+}
+.rn-1{
+  display: flex;
+  margin-top: 35px;
+  background-color: rgb(231, 226, 226);
+  padding: 35px 40px;
+  border-radius: 10px;
+}
+
+.rn-1 button{
+  padding: 15px 25px;
+  border-radius: 10px;
+  background-color: #09a15c;
+  color: #ffffff;
+  border: none;
 }
