@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-  /* background-color: #f5f5f5; */
+  background-color: #f5f5f5;
   margin: 0px;
   padding: 0px;
 
@@ -75,10 +75,11 @@ margin-bottom: 35px;
 }
 #card-container .card{
     width: 325px;
-    background-color: #d7d7d7;
+    background-color: #ffffff;
     padding: 15px 20px;
     border-radius: 10px;
 }
+.card h
 .heading-style p{
   font-size: 16px;
   width: 80%;
@@ -185,11 +186,19 @@ margin-bottom: 10px;
   padding: 35px 40px;
   border-radius: 10px;
 }
-
 .rn-1 button{
   padding: 15px 25px;
   border-radius: 10px;
   background-color: #09a15c;
   color: #ffffff;
   border: none;
+}
+.rn-1 img{
+  border-radius: 10px;
+}
+.rn-2{
+  padding: 0 30px;
+}
+.rn-2 h2,img, p{
+  margin-bottom: 15px;
 }
